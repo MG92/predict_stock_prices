@@ -1,0 +1,17 @@
+name: price_model_env
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - matplotlib
+  - pytorch
+  - pytorch-lightning
+  - scikit-learn
+  - pip
+  - pip:
+      - torch
+      - torcheval
